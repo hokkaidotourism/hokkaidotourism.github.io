@@ -18,14 +18,100 @@
     color: rgb(255,255,255);
     font-family: Ungai;
 }
-#background {
-    background-image: src("Images/hokkaidoLandscape.gif");
-
-    width:100%;
+body {
+    background-image: url("https://lh3.googleusercontent.com/VKL0-rB15C5fLiN1BCnNoimtQtWoUtK19McIQYc3re1T99o2JbVEyv0IQIY4Co7Xu6VqMvyqNOXp9ZOMgEm-zY5iUJoDEyXSmExBi812yzZdwBgQbKPeid10zPFQvrGfF2N1y2CyWqpDXH2ugME_lWoGTxuPn5LhY8JNckrcA2gii7esHmHYwgrbRPXqwZsgWep_htjuu26Ef6jhYFGrHXfSCmhk2mLEskEE6Zh59eduUhfhp_7iQqxZtax4Ydq2j7Hdp0KmNH0asZhH_flxJOKEkfnKVFOk_cxMqjXFJ2Nl-5m2ZQVwunRLc19t_uSoNVFuP7DOcXCcKlk1IJ-oMFpAHx9RahRIxR5_oWOsdtlaoYX2j2lntdmTkIbpBQCKGY-2OedtZE6Thlut08k7xhGadDR7Jc9LA1GA-4poNmpPQnwJSl7RBrmra4l-IK-Z94sapDOr07dSP9fJNRwuvVUns1Lon33gqOnYdHUsB3d8APAk-4AOVp6HxP98nBKdVyEsU_LFTwjXaakEMukaEpKkTEO9OOgsCyuut__EkXqESjNJ5pdIKjB0C0LUptmApM9JtMDwjpZCS1MII5J9NVcfkvgTWkiTSjVzDouB4H3Or9_FO1zYu7slY9YIY_c5hrKOHwIydR4MLe5oZHXiRT7T5WWkILfNd72hozNGR5DzylLraoxImC-d9RV-TpOmSVhWw2it5q9QUEKTaTA3Xms62u4Qsd7vlIUjI32M9OA7Nkm2rY-YjJdqNQ8=w640-h360-no");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: -20vh;
+    overflow: hidden;
     
 }
-#backgroundImage {
-    width: 100vw;
+#titleBlock {
+    font-weight: bold;
+    font-size: 5vw;
     position: absolute;
-    left: 0;
+    width:20vw;
+    height:7.5vw;
+    background-color: rgb(0,0,0);
+    color: rgb(255,255,255);
+    left: calc(50% - 10vw);
+    top: 5vw;
+    text-align: center;
+}
+#titleLink:link {
+    color: rgb(255,255,255);
+    text-decoration: none;
+}
+#titleLink:visited {
+    color: rgb(255,255,255);
+    text-decoration: none;
+}
+#titleLink:hover {
+    color: rgb(255,255,255);
+    text-decoration: none;
+}
+#titleLink:active {
+    color: rgb(255,255,255);
+    text-decoration: none;
+}
+
+.jumpLink:link {
+    color: rgb(255,255,255);
+    text-decoration: none;
+}
+.jumpLink:visited {
+    color: rgb(255,255,255);
+    text-decoration: none;
+}
+.jumpLink:hover {
+    color: rgb(255,255,255);
+    text-decoration: none;
+}
+.jumpKink:active {
+    color: rgb(255,255,255);
+    text-decoration: none;
+}
+
+#transportHolder {
+    position: absolute;
+    width:20vw;
+    height:20vw;
+    left:10vw;
+    top:10vw;
+}
+
+#plane {
+    position: absolute;
+    width: 20vw;
+    height: 10vw;
+    left: 10vw;
+    top: 10vw;
+}
+#ushi {
+    position: absolute;
+    width: 10vw;
+    height: 10vw;
+    left: 70vw;
+    top: 10vw;
+}
+#mascot {
+    position: absolute;
+    width: 10vw;
+    height: 10vw;
+    left: calc(50% - 5vw);
+    top: 15vw;
+}
+#dishes {
+    position: absolute;
+    width:20vw;
+    height: 10vw;
+    left: 10%;
+    top: 30vw;
+}
+#attractions {
+    position: absolute;
+    width:20vw;
+    height: 10vw;
+    left: 70%;
+    top: 30vw;
 }
